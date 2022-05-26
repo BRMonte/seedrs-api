@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  sector: MyString
+  country: MyString
+  percentage_raised: MyString
+  target_amount: 1
+  investment_multiple: 9.99
+
+two:
+  name: MyString
+  sector: MyString
+  country: MyString
+  percentage_raised: MyString
+  target_amount: 1
+  investment_multiple: 9.99
