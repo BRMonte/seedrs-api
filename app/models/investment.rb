@@ -1,7 +1,9 @@
 class Investment < ApplicationRecord
   belongs_to :campaign
 
-  before_save :is_campaign_complete?, :is_investment_multiple_correct?
+  validate :is_investment_multiple_correct?
+
+  before_save :is_campaign_complete?
 
   after_save :update_percentage
 
